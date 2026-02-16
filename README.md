@@ -1,37 +1,48 @@
-# 📦 Sistema em Java — Projeto de Aprendizado com Arquitetura MVC
+# 🥖 Sistema de Padaria em Java — Arquitetura MVC (Terminal)
 
-## 📖 Sobre o projeto
-
-Este projeto foi desenvolvido com o objetivo principal de **aprendizado e prática em Java**, com foco em melhorar minhas habilidades na linguagem e aprender conceitos fundamentais de arquitetura de software.
-
-O principal objetivo foi aplicar, pela primeira vez, o padrão de arquitetura **MVC (Model–View–Controller)** e entender como organizar um sistema de forma mais estruturada e próxima do ambiente profissional.
-
-Este projeto foi criado durante meus **primeiros 3 meses de estudo em Java**, sendo um marco importante no meu processo de evolução como desenvolvedor.
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
+![Status](https://img.shields.io/badge/status-em%20aprendizado-yellow?style=for-the-badge)
+![Architecture](https://img.shields.io/badge/architecture-MVC-blue?style=for-the-badge)
 
 ---
 
-## 🎯 Objetivos de aprendizado
+## 📖 Sobre o projeto
 
-- Aplicar o padrão de arquitetura MVC
-- Melhorar a organização e estrutura do código
-- Aprender mais sobre a sintaxe do Java
-- Praticar Programação Orientada a Objetos (POO)
-- Desenvolver um sistema maior e mais estruturado
-- Entender melhor a separação de responsabilidades
+Este é um **sistema de padaria desenvolvido em Java**, executado no terminal, com foco principal em **aprendizado da arquitetura MVC (Model–View–Controller)** e melhoria das minhas habilidades em desenvolvimento de software.
+
+O sistema simula funcionalidades básicas que podem existir em uma padaria, aplicando conceitos importantes como:
+
+- Programação Orientada a Objetos (POO)
+- Organização de código em camadas
+- Separação de responsabilidades
+- Estruturação de projetos maiores
+
+Este foi meu **primeiro projeto utilizando arquitetura MVC**, desenvolvido durante meus **primeiros 3 meses estudando Java**.
+
+---
+
+## 🎯 Objetivos do projeto
+
+- Aplicar o padrão MVC na prática
+- Melhorar a organização do código
+- Aprender a estruturar sistemas maiores
+- Desenvolver pensamento arquitetural
+- Melhorar minhas habilidades em Java
+- Criar um sistema funcional no terminal
 
 ---
 
 ## 🧠 Arquitetura utilizada — MVC
 
-O projeto utiliza o padrão **MVC (Model–View–Controller)**, que divide o sistema em três camadas principais:
+O projeto utiliza o padrão arquitetural **Model–View–Controller**, que separa o sistema em três camadas:
 
 ### 📁 Model
 Responsável pelos dados e regras de negócio.
 
 Exemplos:
-- Classes de entidades
-- Estruturas de dados
-- Lógica principal do sistema
+- Classes que representam entidades
+- Lógica do sistema
+- Manipulação de dados
 
 ---
 
@@ -39,82 +50,81 @@ Exemplos:
 Responsável pela interação com o usuário.
 
 Exemplos:
-- Menus
+- Menus no terminal
 - Entrada de dados
 - Exibição de informações
 
 ---
 
 ### 📁 Controller
-Responsável por controlar o fluxo da aplicação.
+Responsável pelo controle do fluxo do sistema.
 
 Funções:
-- Receber dados da View
-- Processar dados usando o Model
-- Retornar respostas para a View
-
----
-
-## 🛠️ Tecnologias utilizadas
-
-- Java
-- Programação Orientada a Objetos (POO)
-- Arquitetura MVC
+- Receber comandos do usuário
+- Processar dados
+- Conectar Model e View
 
 ---
 
 ## 📂 Estrutura do projeto
 
-src/
-│
-├── model/
-│ └── Classes responsáveis pelos dados e regras
-│
-├── view/
-│ └── Interface e interação com o usuário
+Sistema De Padaria - PADRAO MVC/
 │
 ├── controller/
-│ └── Controle e lógica de fluxo
+│ └── Classes de controle do sistema
+│
+├── model/
+│ └── Classes de dados e regras de negócio
+│
+├── view/
+│ └── Interface via terminal
 │
 └── Main.java
 
 
 ---
 
-## ⚠️ Observações importantes
+## ⚙️ Tecnologias utilizadas
 
-Este projeto foi desenvolvido com foco em aprendizado, portanto algumas melhorias ainda podem ser feitas, como:
-
-- Melhor reutilização de código
-- Refatoração de algumas classes
-- Melhor separação de responsabilidades em alguns pontos
-- Aplicação de mais boas práticas
-
-Como este foi meu primeiro contato com arquitetura MVC e ainda estou no início da minha jornada com Java, o foco principal foi aprender e aplicar os conceitos na prática.
-
-Este projeto representa minha evolução inicial e minha dedicação em aprender desenvolvimento de software de forma estruturada.
+- Java
+- Programação Orientada a Objetos (POO)
+- Arquitetura MVC
+- Terminal / Console
 
 ---
 
-## 📈 Melhorias futuras
+📈 O que aprendi com este projeto
 
-- Refatorar o código
-- Melhorar a reutilização de funções
-- Implementar novas funcionalidades
-- Melhorar a organização geral
-- Aplicar mais boas práticas
+- Como aplicar arquitetura MVC
+- Como organizar um projeto Java
+- Separação de responsabilidades
+- Estruturação de sistemas maiores
+- Melhor entendimento da linguagem Java
 
----
+⚠️ Observações
+Este é um projeto de aprendizado, portanto:
 
-## 👨‍💻 Autor
+- Algumas partes podem ser melhoradas
+- Algumas funções ainda podem ser refatoradas
+- O reaproveitamento de código pode ser melhorado
+- O foco principal foi o aprendizado, não a perfeição
 
-Projeto desenvolvido como parte do meu aprendizado em Java.
+Este projeto representa minha evolução inicial como desenvolvedor Java.
 
-Tempo de experiência com Java no momento do desenvolvimento: **aproximadamente 3 meses**
+🚀 Melhorias futuras
 
----
+- Refatoração do código
+- Melhor reutilização de funções
+- Implementação de novas funcionalidades
+- Melhor tratamento de erros
+- Melhor organização e padronização
 
-## 📌 Status
+👨‍💻 Autor
 
-🟡 Projeto em evolução e aprendizado
+Desenvolvido por Isack de Melo
+- Experiência com Java no momento do projeto: ~3 meses
+- Projeto criado com foco em aprendizado de arquitetura e boas práticas
 
+📌 Status do projeto
+
+🟡 Em desenvolvimento e aprendizado
